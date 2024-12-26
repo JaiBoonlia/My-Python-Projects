@@ -1,0 +1,9 @@
+2000.0,food,groceries
+1000.0,arcade,entertainment
+3452.0,night-out,entertainment
+100.0,cab,transportation
+38.0,metro,transportation
+500.0,tissues,utilities
+100.5,blah,utilities
+100.5,blah1,utilities
+100.5,blah2,utilities
