@@ -34,3 +34,37 @@ Libraries:
 Summarized insights like total yield or average prices.<br>
 Rankings or filtered data by yield, region, or profit.<br>
 Easy addition and verification of new data entries.<br>
+
+# 2. Expense Tracker
+# Overview
+The Expense Tracker is a simple and efficient Python program to record, categorize, and summarize daily expenses. It provides a user-friendly way to keep track of spending and manage budgets effectively.
+
+# Features
+Add Expenses: Record an expense with a description, amount, and category.<br>
+View Expense Summary:<br>
+Total amount spent.<br>
+Breakdown of expenses by category.<br>
+Add New Categories: Expand the predefined categories with custom options.<br>
+Persistent Storage: Stores expenses in a file (expenses.txt) for future reference.<br>
+Easy to Use: Simple text-based interface.<br>
+# Predefined Categories
+Groceries<br>
+Transportation<br>
+Utilities<br>
+Entertainment<br>
+# How to Use
+Run the Script:<br>
+Select from the following options in the menu:<br>
+
+1. Add Expense:<br>
+Enter the expense amount.<br>
+Provide a brief description.<br>
+Choose from available categories or add new ones.<br>
+2. View Summary:<br>
+Displays the total spending and categorized breakdown of expenses.<br>
+3. Add New Category:<br>
+Add a custom category for organizing expenses.<br>
+4. Exit: Quit the application.<br>
+All recorded expenses are saved automatically in expenses.txt and loaded when the program restarts.<br>
+# File Details
+expenses.txt: Stores expense data in CSV format: amount,description,category
