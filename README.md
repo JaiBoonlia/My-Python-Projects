@@ -108,3 +108,57 @@ Run the script:<br>
 Interact with the application to book your tickets:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Select a movie, date, time, and number of tickets.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Confirm the booking or reset your selections as needed.<br>
+
+# 4. Flight Booking System
+# Overview
+The Flight Booking System is a Python-based project designed to manage and streamline the flight booking process for travel agencies. It provides an intuitive Graphical User Interface (GUI) to handle flights, passengers, and bookings, supporting operations like search, booking, cancellation, and schedule management while ensuring data persistence through CSV files.
+
+# Features
+The project enables the following functionalities:<br>
+
+Flight Search:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Search flights by destination, date, or flight ID.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;View complete flight schedules.<br>
+Passenger Management:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Search and manage passenger records, including contact details and booking history.<br>
+Booking and Cancellation:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Process flight bookings and cancellations.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Update seat availability dynamically.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Log all transactions (bookings and cancellations) in the system.<br>
+Refund Management:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Calculate refunds based on the time of cancellation:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;80% refund if canceled within 24 hours of booking.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;50% refund if canceled up to 48 hours before the flight.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;No refund for cancellations within 24 hours of departure.<br>
+Data Updates:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Easily add, update, and view flight and passenger data through the GUI.<br>
+# Dataset
+The system uses three key CSV files to store data:<br>
+
+flights.csv: Contains flight details including Flight ID, Departure, Arrival, Date, Time, and Seats Available.<br>
+passengers.csv: Maintains Passenger ID, Name, Contact Details, and Booked Flights.<br>
+bookings.csv: Logs booking and cancellation transactions with details like Transaction Type, Flight ID, Passenger ID, and Date.<br>
+# Core Techniques
+This project employs the following programming principles and tools:<br>
+
+Data Structures: Lists and dictionaries for efficient data management.<br>
+Python Features: Classes, modular methods, loops, and conditionals for structured implementation.<br>
+File Handling: CSV operations for persistent data storage and retrieval.<br>
+Optional: Additional Python libraries like Tkinter for GUI and Pandas for enhanced data manipulation.<br>
+# How to Run
+Clone this repository to your local machine.<br>
+Ensure CSV files: Place flights.csv, passengers.csv, and bookings.csv in the root directory.<br>
+Run the main application script using:<br>
+Interact with the GUI to perform actions like searching, booking, or canceling flights.<br>
+# Workflow
+Step 1: View or search for flights based on your requirements.<br>
+Step 2: Verify passenger details for new bookings.<br>
+Step 3: Complete a flight booking and receive a confirmation.<br>
+Step 4: Cancel a booking and view applicable refunds.<br>
+# Key Insights Provided
+Schedule and seat availability for flights.<br>
+Passenger booking history and eligibility.<br>
+Logs of all booking and cancellation transactions.<br>
+Refunds calculated based on cancellation time.<br>
+# Additional Information
+This project ensures user-friendly interactions with proper error handling and clear feedback for every action. It is ideal for small-scale travel agencies to effectively manage flight operations and improve customer satisfaction.
