@@ -1,0 +1,6 @@
+Flight ID,Departure,Arrival,Date,Time,Seats Available
+FL001,New York (JFK),London (LHR),2025-01-15,10:30,147
+FL002,San Francisco,Tokyo (NRT),2025-01-16,13:45,180
+FL003,Sydney (SYD),Auckland (AKL),2025-01-20,08:15,100
+FL004,Dubai (DXB),Paris (CDG),2025-01-22,22:30,200
+FL005,Los Angeles,Miami (MIA),2025-01-25,09:00,220
